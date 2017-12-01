@@ -10,7 +10,9 @@
     "oni": "^0.0.1"
   },
   "oni": {
-    "supportedFileTypes": ["javascript"],
+    "supportedFileTypes": [
+      "javascript"
+    ],
     "commands": {
       "eslint.fix": {
         "name": "ESLint: Fix",
