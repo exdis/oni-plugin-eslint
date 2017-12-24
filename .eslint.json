@@ -33,7 +33,6 @@
     "jsx": true
   },
   "extends": "eslint:recommended",
-  "parser": "babel-eslint",
   "globals": {
     "_": false,
     "remote": false,
