@@ -20,7 +20,7 @@
       }
     }
   },
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^4.11.0",
     "findup": "^0.1.5"
   }
