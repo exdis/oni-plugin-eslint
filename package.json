@@ -1,27 +1,27 @@
 {
-  "name": "oni-plugin-eslint",
-  "version": "0.0.1",
-  "description": "An eslint plugin for Oni",
-  "main": "lib/index.js",
-  "repository": "git@github.com:Akin909/oni-eslint-plugin.git",
-  "author": "Akin909 <akin.sowemimo@gmail.com>",
-  "license": "MIT",
-  "engines": {
-    "oni": "^0.0.1"
-  },
-  "oni": {
-    "supportedFileTypes": [
-      "javascript"
-    ],
-    "commands": {
-      "eslint.fix": {
-        "name": "ESLint: Fix",
-        "details": "Automatically fix lint issues for certain rules"
-      }
+    "name": "oni-plugin-eslint",
+    "version": "0.0.1",
+    "description": "An eslint plugin for Oni",
+    "main": "lib/index.js",
+    "repository": "git@github.com:exdis/oni-plugin-eslint.git",
+    "author": "exdis",
+    "license": "MIT",
+    "engines": {
+        "oni": "^0.3.6"
+    },
+    "oni": {
+        "supportedFileTypes": [
+            "javascript"
+        ],
+        "commands": {
+            "eslint.fix": {
+                "name": "ESLint: Fix",
+                "details": "Automatically fix lint issues for certain rules"
+            }
+        }
+    },
+    "devDependencies": {
+        "eslint": "^4.11.0",
+        "find-up": "^2.1.0"
     }
-  },
-  "devDependencies": {
-    "eslint": "^4.11.0",
-    "find-up": "^2.1.0"
-  }
 }
